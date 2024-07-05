@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: IRANSANS;
+    src: url(../fonts/IRANSansWeb-Light.eot);
+    src: url(../fonts/IRANSansWeb-Light.ttf);
+    src: url(../fonts/IRANSansWeb-Light.woff);
+    src: url(../fonts/IRANSansWeb-Light.woff2);
+}
+@layer components{
+    *{
+        font-family: IRANSANS;
+    }
+}
